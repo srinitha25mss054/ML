@@ -7,3 +7,12 @@ if prediction[0]==1:
     print("student result:pass")
 else:
     print("student result:fail")
+
+
+    from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def home():
+    return {"message": "Website is working!"}
