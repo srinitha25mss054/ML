@@ -1,8 +1,23 @@
-.venv/
-venv/
+# Python
 __pycache__/
 *.pyc
-mlruns/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow and metrics
 mlflow.db
-*.log
+mlruns/
+metrics.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
 .env
+

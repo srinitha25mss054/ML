@@ -8,6 +8,7 @@ student_data = {
     "previous_marks": 70
 }
 
+
 response = requests.post(url, json=student_data)
 
 print("status code:", response.status_code)
